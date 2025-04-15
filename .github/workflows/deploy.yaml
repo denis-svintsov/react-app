@@ -1,9 +1,9 @@
 name: Deploy React App to GitHub Pages
 
 on:
-  workflow_dispatch:  # Ручной запуск через GitHub UI
+  workflow_dispatch:
   push:
-    branches: [ main ]  # Автозапуск при пуше в main
+    branches: [ main ]
 
 jobs:
   build-and-deploy:
